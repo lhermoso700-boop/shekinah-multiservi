@@ -1,0 +1,137 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SHEKINAH MULTISERVI, C.A.</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" />
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#hero" class="brand">
+        <img src="img/logo.png" alt="Shekinah Multiservi logo" class="brand-logo" />
+        <span class="brand-text">SHEKINAH MULTISERVI, C.A.</span>
+      </a>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-controls="main-nav" aria-expanded="false">☰</button>
+      <nav class="nav" id="main-nav">
+        <a href="#hero">Inicio</a>
+        <a href="#about">Quiénes Somos</a>
+        <a href="#services">Servicios</a>
+        <a href="#projects">Proyectos</a>
+        <a href="#contact">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+  <main id="main">
+    <section id="hero" class="hero section-full">
+      <div class="container hero-content">
+        <p class="eyebrow">Industrial Premium</p>
+        <h1>SHEKINAH MULTISERVI, C.A.</h1>
+        <p class="hero-copy">De la mano con quienes construyen el futuro...</p>
+        <a href="#contact" class="btn btn-primary">Contáctanos</a>
+      </div>
+    </section>
+
+    <section id="about" class="section section-dark">
+      <div class="container grid-two">
+        <div>
+          <div class="about-image">
+            <img src="img/505995319_24000402466268477_6550948864043786104_n.jpg" alt="Equipo de Shekinah Multiservi">
+          </div>
+          <h2>Quiénes Somos</h2>
+          <p>Empresa dedicada a facilitar el acceso a tecnología de punta en soldadura. Especialistas en brindar apoyo a empresas contratistas y de montaje en Venezuela. Personal con más de 15 años de experiencia, calificado dentro y fuera del país, priorizando el valor, el esfuerzo y las relaciones humanas.</p>
+        </div>
+        <div class="card">
+          <div class="card-block">
+            <h3>Misión</h3>
+            <p>Satisfacer a nuestros clientes con la mayor calidad en servicios de metalmecánica y suministro de equipos/consumibles para la industria petrolera, petroquímica, marítima y portuaria, garantizando soluciones integrales que agregan valor.</p>
+          </div>
+          <div class="card-block">
+            <h3>Visión</h3>
+            <p>Ser una empresa de referencia nacional e internacional, reconocida por su capacidad de trabajo y por brindar soluciones a la industria con obras de alto nivel.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section section-brand">
+      <div class="container">
+        <h2>Servicios</h2>
+        <div class="services-grid">
+          <article class="service-card">
+            <h3>Arco Desnudo (SMAW)</h3>
+            <p>Soluciones robustas y confiables de soldadura manual para estructuras y equipos industriales.</p>
+          </article>
+          <article class="service-card">
+            <h3>Soldadura Manual (MMA)</h3>
+            <p>Versatilidad y control en trabajos especializados con resultados premium.</p>
+          </article>
+          <article class="service-card">
+            <h3>Soldadura de Tungsteno (TIG / GTAW)</h3>
+            <p>Acabados precisos y de alta calidad para metales críticos y componentes finos.</p>
+          </article>
+          <article class="service-card">
+            <h3>Soldadura de Arco de Metal con gas (MIG/MAG / GMAW)</h3>
+            <p>Procesos rápidos y eficientes para producción industrial y montaje en campo.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section section-dark">
+      <div class="container">
+        <h2>Proyectos</h2>
+        <div class="projects-list">
+          <p>Planta PVAY/PSAY-3 (Torre T-101)</p>
+          <p>Complejo D & L-PG-1 (Refinería Cardón)</p>
+          <p>Unidades PVAY/PSAY 3 y 4 (Refinería de Amuay)</p>
+          <p>Planta SUAY1 (C.R.P)</p>
+          <p>Revestimiento Torre T-101 (Refinería de Amuay)</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-brand-light">
+      <div class="container grid-two">
+        <div>
+          <h2>Contacto</h2>
+          <p>Manzana Nro. 2, Casa Nro. 15, Urb. Parque Amuay, Edo. Falcón - Venezuela.</p>
+          <p>Teléfonos: <strong>+58 412-5802689</strong> / <strong>+58 412-6049405</strong></p>
+          <p>Email: <a href="mailto:shekinahmultiservi@gmail.com">shekinahmultiservi@gmail.com</a></p>
+          <p>Contacto: <strong>Orlando Hermoso</strong></p>
+        </div>
+
+        <form id="contact-form" class="contact-form">
+          <label for="name">Nombre</label>
+          <input type="text" id="name" name="user_name" required />
+          <label for="email">Correo</label>
+          <input type="email" id="email" name="user_email" required />
+          <label for="message">Mensaje</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+          <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+          <p id="form-response" class="form-response"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <a class="whatsapp-float" href="https://wa.me/584125802689" target="_blank" rel="noreferrer">
+    <span class="whatsapp-icon" aria-hidden="true"><i class="ri-whatsapp-line"></i></span>
+    <span class="whatsapp-text">WhatsApp</span>
+  </a>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 SHEKINAH MULTISERVI, C.A. | Industrial Premium</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
